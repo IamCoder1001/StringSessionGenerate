@@ -1,7 +1,7 @@
 {
-    "name": "RikudoPyrogramString",
+    "name": "LegendStringGenerator",
     "description": "A bot for Generating String Session of Telegram Account mostly for Userbots.",
-    "repository": "https://github.com/AvikaTrivedi/RikudoPyroStr",
+    "repository": "https://github.com/LEGEND-OS/StringSessionGenerate",
     "logo": "https://telegra.ph/file/f1cf1598c79fd805c60dd.jpg",
     "keywords": [
         "python",
