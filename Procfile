@@ -1,1 +1,1 @@
-worker: python3.8 genStr.py
+web = python3 bot.py
