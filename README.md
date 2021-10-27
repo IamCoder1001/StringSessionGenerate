@@ -9,7 +9,7 @@ ________
 Generate Pyrogram String Session Using this bot.
 
 ## Bot Link:
-<a href="https://t.me/pyrogram_string_genrobot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Legend_StringBot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 - API_HASH
