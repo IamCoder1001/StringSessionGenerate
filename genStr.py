@@ -4,9 +4,9 @@ from bot import bot, HU_APP
 from pyromod import listen
 from asyncio.exceptions import TimeoutError
 
-from pyrogram import filters, Client
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.errors import (
+from telethon import filters, Client
+from telethon.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from telethon.errors import (
     SessionPasswordNeeded, FloodWait,
     PhoneNumberInvalid, ApiIdInvalid,
     PhoneCodeInvalid, PhoneCodeExpired
@@ -122,7 +122,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@pyrogram_string_genrobot](tg://openmessage?user_id=1472531255) \nA Bot By @Avika_5555 \nThanks for using our bot 👉✨")
+        await client.send_message("me", f"#Telethon #STRING_SESSION\n\n```{session_string}``` \n\nBy [@Legend_StringBot](tg://openmessage?user_id=2082682316) \nA Bot By @The_LegendBoy \nThanks for using our bot 👉✨")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
